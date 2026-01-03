@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveSky Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LiveSky Weather Dashboard</h1>
+        <div class="current-weather">
+            <div class="weather-icon">
+                <img id="icon" src="" alt="Weather Icon">
+            </div>
+            <div class="weather-info">
+                <h2 id="city">Loading...</h2>
+                <p id="temperature">--°C</p>
+                <p id="description">Loading...</p>
+                <p id="humidity">Humidity: --%</p>
+                <p id="wind">Wind: -- km/h</p>
+            </div>
+        </div>
+        <div class="forecast">
+            <h3>Next 4 Days</h3>
+            <div class="forecast-container" id="forecast-container">
+                <!-- Forecast cards will be inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
